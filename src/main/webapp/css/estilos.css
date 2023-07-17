@@ -1,0 +1,53 @@
+
+
+.grosor{
+    width: 100%;
+}
+
+
+.filtro{
+
+    filter: brightness(50%);
+}
+
+.texto_arriba {
+    position: relative;
+    z-index:2;
+    width: 500px;
+   
+
+}
+
+.fondo{
+    background-color: #353a40;
+    padding: 20px;
+    
+    
+}
+
+.altura{
+    height: 540px;
+}
+
+@media (min-width:992px){
+
+
+    .fondo{
+        background-color: transparent;
+        padding: 0;
+        
+    }
+
+    .altura{
+        height: 620px;
+    }
+    .grosor{
+        width: 50%;
+    }
+
+
+}
+
+
+
+
